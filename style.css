@@ -1,0 +1,114 @@
+/*
+Theme Name: Activello
+Theme URI: https://colorlib.com/wp/themes/activello/
+Author: Colorlib
+Author URI: http://colorlib.com
+Description: Activello is a clean and minimal WordPress blog theme with premium look and feel well suited for food, fashion, travel, lifestyle, sports and any other awesome blogs. This theme features WooCommerce integration that allows you to create fully functional eCommerce website side by side with your blog. This theme has several customization options that are available WordPress Theme Customizer. Theme is also multilingual ready and translated in several languages. This awesome blog theme is also SEO friendly helping you to achieve the highest positions on Google. Activello is the only WordPress blog theme you will ever need.
+Version: 1.4.4
+Tested up to: 5.5
+Requires PHP: 5.4.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: activello
+Domain Path: /languages/
+Tags: blog, entertainment, portfolio
+
+
+This theme, like WordPress, is licensed under the GPL.
+
+Sparkling is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+
+*/
+
+
+/* Table of content
+-----------------------------------------------
+1. Global
+2. Content
+3. Post styling
+4. Singe Post/Page Pagination
+5. Media
+6. Widgets
+7. Buttons
+8. Infinite Scroll
+8. Custom Styles
+9. Navigation
+10. Comments
+11. Attachment styling
+12. Gallery
+13. Footer
+14. Social icons
+15. Call For Action
+*/
+
+
+/* =Global
+----------------------------------------------- */
+
+body {
+    color: #696969;
+    background-color: #FFFFFF;
+    word-wrap: break-word;
+    font-family: 'Lora', serif;
+    line-height: 2;
+    font-size: 14px;
+}
+a {
+    color: #393939;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+a:hover, a:focus {
+    color: #a161bf;
+    text-decoration: none;
+}
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.single .entry-content a {
+    color: #a161bf;
+}
+.single .entry-content a:hover,
+.single .entry-content a:focus {
+    background: #a161bf;
+    color: #fff;
+}
+.single .entry-content .page-links a:hover,
+.single .entry-content .page-links a:focus {
+    background-color: transparent;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #696969;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px 0;
+}
+.container {
+    max-width: 1090px;
+}
+h1, .h1 {
+    font-size: 60px;
+}
+h2, .h2 {
+    font-size: 24px;
+}
+h3, .h3 {
+    font-size: 40px;
+}
+h4, .h4 {
+    font-size: 16px;
+}
+h5, .h5 {
+    font-size: 14px;
+}
+h6, .h6 {
+    font-size: 13px;
+}
+p {
+    margin: 15px 0;
+}
